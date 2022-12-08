@@ -1,0 +1,30 @@
+@media (max-width:800px) {
+    .sobre-smartwatch {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicio {
+        display: flex;
+        gap: 1rem;
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .texto-menu h3 {
+        margin: auto;
+        color: #fff;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .inicio .img img {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29rem;
+        height: 57vh;
+    }
+}
