@@ -1,8 +1,13 @@
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0;
     font-family: sans-serif;
+    text-decoration: none;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
 }
 
 /* Geral */
@@ -11,53 +16,89 @@ h1 {
     color: #fff;
 }
 
-.hr {
-    padding: 1px;
-    background: black;
-    width: 800px;
-    margin: auto;
-}
-
 /* Banner */
 
-#banner {
-    background-image: url(../img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+.banner-principal {
+    background-image: url(../img/banner/img-banner.jpg);
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    position: absolute;
 }
 
-#banner .banner {
-    max-width: 1000px;
-    margin: auto;
-    padding: 10px;
+/*=====================*/
+
+.section-menu {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+.menu {
     display: flex;
-    justify-content: space-between;
-    height: 40rem;
-}
-
-.btn {
-    background: black;
-    width: 150px;
-}
-
-.btn a {
-    margin: 20px;
-    height: 100px;
+    justify-content: space-around;
     padding: 10px;
+}
+
+.menu .menu-classe {
+    display: flex;
+    gap: 1rem;
     text-decoration: none;
+    list-style: none;
+}
+
+.menu-classe li {
+    margin-top: 5px;
+    justify-items: center;
+}
+
+.menu-classe a {
     color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
 }
+/*=====================*/
 
-.texto {
-    margin-top: 15rem;
-    width: 600px;
-}
-
-.img-banner {
+.texto-menu {
+    text-align: center;
     margin-top: 10rem;
 }
 
-.img-banner .img {
-    width: 18rem;
-    height: 18rem;
+.texto-menu h1 {
+    font-size: 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.texto-menu h3 {
+    margin: auto;
+    color: #fff;
+    margin-top: 10px;
+    width: 600px;
+}
+
+.texto-menu .btn {
+    background-color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/*=====================*/
+
+section#inicio {
+    margin-top: 31.8rem;
+}
+
+.inicio {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+
+}
+/*=====================*/
