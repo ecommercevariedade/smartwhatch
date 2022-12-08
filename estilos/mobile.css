@@ -1,4 +1,13 @@
 @media (max-width:800px) {
+    html {
+        font-size: 99%;
+    }
+
+    .texto-menu h1 {
+        font-size: 3.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
     .sobre-smartwatch {
         display: flex;
         flex-direction: column;
@@ -27,4 +36,9 @@
         width: 29rem;
         height: 57vh;
     }
+
+    section#inicio {
+        margin-top: 32.8rem;
+    }
+    
 }
